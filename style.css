@@ -715,13 +715,13 @@ p  { margin-bottom: 1rem; }
   position: absolute;
   right: 3rem;
   bottom: 2rem;
-  width: 150px;
-  height: 185px;
-  background-image: url('flower-v2.svg');
+  width: 155px;
+  height: 200px;
+  background-image: url('flower-v3.svg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center bottom;
-  opacity: 0.38;
+  opacity: 0.42;
   pointer-events: none;
 }
 

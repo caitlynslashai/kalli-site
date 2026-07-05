@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-112 -150 230 325" fill="none" stroke="#C0909C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+
+  <!-- Stem: gentle curve downward -->
+  <path d="M0,0 C3,32 4,72 2,108 C1,126 -1,144 -2,160"/>
+
+  <!-- Petal 1: straight up — control pts 28px perpendicular to axis -->
+  <path d="M0,0 C-28,-30 -28,-95 0,-130 C28,-95 28,-30 0,0"/>
+  <!-- Small oval bud at tip, as in her sketch -->
+  <ellipse cx="0" cy="-133" rx="4.5" ry="7" fill="none"/>
+
+  <!-- Petal 2: upper-right ~55° — axis (78,-56), perp (-0.58,-0.81) -->
+  <path d="M0,0 C12,-38 38,-56 78,-56 C66,-18 40,0 0,0"/>
+
+  <!-- Petal 3: right, nearly horizontal ~4° — axis (94,-6), perp (0,-1) -->
+  <path d="M0,0 C30,-28 62,-30 94,-6 C62,22 30,24 0,0"/>
+
+  <!-- Petal 4: lower-right ~128° — axis (62,78), perp (0.78,-0.62) -->
+  <path d="M0,0 C2,40 22,66 62,78 C60,36 38,10 0,0"/>
+
+  <!-- Petal 5: lower-left ~214° — axis (-56,92), perp (0.85,0.52) -->
+  <path d="M0,0 C4,44 -14,76 -56,92 C-60,48 -40,16 0,0"/>
+
+  <!-- Petal 6: left-lower sweep ~236° — axis (-84,56), perp (0.55,0.83) -->
+  <path d="M0,0 C-14,42 -42,60 -84,56 C-70,16 -42,-4 0,0"/>
+
+  <!-- Petal 7: left ~180° — axis (-94,0), perp (0,1) -->
+  <path d="M0,0 C-30,-26 -64,-26 -94,0 C-64,26 -30,26 0,0"/>
+
+  <!-- Stamens with filled dot tips -->
+  <line x1="0" y1="0" x2="-13" y2="-31"/>
+  <circle cx="-13" cy="-32" r="3.5" fill="#C0909C" stroke="none"/>
+
+  <line x1="0" y1="0" x2="9" y2="-29"/>
+  <circle cx="9" cy="-30" r="3.5" fill="#C0909C" stroke="none"/>
+
+  <line x1="0" y1="0" x2="25" y2="-23"/>
+  <circle cx="25" cy="-24" r="3.5" fill="#C0909C" stroke="none"/>
+
+</svg>
