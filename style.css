@@ -715,8 +715,8 @@ p  { margin-bottom: 1rem; }
   position: absolute;
   right: 3rem;
   bottom: 2rem;
-  width: 155px;
-  height: 200px;
+  width: 41vh;
+  height: 58vh;
   background-image: url('flower-v3.svg');
   background-size: contain;
   background-repeat: no-repeat;
