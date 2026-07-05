@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Kalli D. McBride</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo">Kalli D. McBride</a>
+    <ul class="nav__links">
+      <li><a href="about.html">About</a></li>
+      <li>
+        <a href="topics.html">Research</a>
+        <div class="nav__dropdown">
+          <div class="nav__dropdown__inner">
+            <a href="medium.html">Mediumship</a>
+            <a href="psychic.html">Psychic &amp; Psi</a>
+            <a href="intuition.html">Intuition</a>
+            <a href="near-death-experiences.html">Near Death Experiences</a>
+            <a href="past-life-regression.html">Past Life Regression</a>
+            <a href="topics.html">All Research Topics &#x2192;</a>
+          </div>
+        </div>
+      </li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="services.html" class="nav__cta">Book a Session</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <span class="eyebrow">Get in Touch</span>
+  <h1>Contact Kalli</h1>
+  <!-- 1-sentence friendly invite — what to reach out about -->
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Contact Form -->
+      <div>
+        <span class="eyebrow">Send a Message</span>
+        <h2 style="margin-bottom:2rem;">Lorem Ipsum Dolor</h2>
+
+        <!-- Form submits via Squarespace form block in final build -->
+        <form>
+          <div class="grid-2" style="gap:1.5rem;">
+            <div class="form-group">
+              <label class="form-label" for="first-name">First Name</label>
+              <input class="form-input" type="text" id="first-name" name="first_name" placeholder="Lorem">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="last-name">Last Name</label>
+              <input class="form-input" type="text" id="last-name" name="last_name" placeholder="Ipsum">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address</label>
+            <input class="form-input" type="email" id="email" name="email" placeholder="lorem@ipsum.com">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="subject">Reason for Contact</label>
+            <select class="form-select" id="subject" name="subject">
+              <option value="" disabled selected>Select a topic</option>
+              <!-- Kalli: adjust these options to match the kinds of inquiries you receive -->
+              <option value="booking">Book a Reading</option>
+              <option value="group">Group / Gallery Event</option>
+              <option value="media">Media / Press</option>
+              <option value="research">Research Collaboration</option>
+              <option value="shop">Shop / Art Order</option>
+              <option value="general">General Inquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-textarea" id="message" name="message" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit..."></textarea>
+          </div>
+
+          <!-- Kalli: if you want to include an opt-in for a mailing list -->
+          <div class="form-group" style="display:flex;align-items:flex-start;gap:0.75rem;">
+            <input type="checkbox" id="newsletter" name="newsletter" style="margin-top:3px;flex-shrink:0;">
+            <label for="newsletter" style="font-size:0.88rem;color:var(--muted);line-height:1.5;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</label>
+          </div>
+
+          <button type="submit" class="btn btn--primary" style="width:100%;text-align:center;">Send Message</button>
+
+          <!-- response time note -->
+          <p style="margin-top:1rem;font-size:0.82rem;color:var(--muted);text-align:center;">Lorem ipsum — typically within [X] business days.</p>
+        </form>
+      </div>
+
+      <!-- Contact Info + FAQ -->
+      <div>
+        <div class="contact-info-block" style="margin-bottom:2rem;">
+          <h3>Direct Contact</h3>
+
+          <div class="contact-info-item">
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:3174357337" style="color:var(--text);">317.435.7337</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:kalli@mcbridemeta.com" style="color:var(--burgundy);">kalli@mcbridemeta.com</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div>
+              <strong>Location</strong>
+              <!-- city/state only — no street address unless intended -->
+              <span>Indianapolis, Indiana</span>
+              <span style="display:block;font-size:0.82rem;color:var(--muted);">In-person &amp; remote sessions available</span>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div>
+              <strong>Availability</strong>
+              <!-- typical availability / booking lead time -->
+              <span>Lorem ipsum dolor sit amet</span>
+              <span style="display:block;font-size:0.82rem;color:var(--muted);">Lorem ipsum — [X] weeks lead time</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-info-block">
+          <h3>Common Questions</h3>
+
+          <!-- FAQ items — answer the 3-4 questions you get most often before booking -->
+          <div class="faq-item">
+            <!-- FAQ 1 — how to prepare for a reading -->
+            <h4>Lorem ipsum dolor sit amet?</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud.</p>
+          </div>
+          <div class="faq-item">
+            <!-- FAQ 2 — what to expect in the session -->
+            <h4>Consectetur adipiscing elit?</h4>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+          </div>
+          <div class="faq-item">
+            <!-- FAQ 3 — cancellation / rescheduling policy -->
+            <h4>Sed do eiusmod tempor?</h4>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa.</p>
+          </div>
+          <div class="faq-item">
+            <!-- FAQ 4 — do you do phone/video vs in-person -->
+            <h4>Ut labore et dolore magna?</h4>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Book CTA -->
+<div class="cta-banner">
+  <h2>Ready to book a session?</h2>
+  <!-- 1-sentence encouraging line to move them to the booking page -->
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+  <a href="services.html" class="btn btn--outline-light">View Sessions &amp; Pricing</a>
+</div>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <div class="nav__logo">Kalli D. McBride</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt. Indianapolis, Indiana.</p>
+      <p style="margin-top:1rem;">317.435.7337<br><a href="mailto:kalli@mcbridemeta.com" style="color:var(--rose);">kalli@mcbridemeta.com</a></p>
+    </div>
+    <div class="footer__col">
+      <h4>Sessions</h4>
+      <ul>
+        <li><a href="services.html">Private Readings</a></li>
+        <li><a href="services.html">Group Readings</a></li>
+        <li><a href="services.html">Intuitive Consult</a></li>
+        <li><a href="services.html">Book a Session</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>Research</h4>
+      <ul>
+        <li><a href="topics.html#mediumship">Mediumship</a></li>
+        <li><a href="topics.html#psychic">Psychic &amp; Psi</a></li>
+        <li><a href="topics.html#astral">Astral Projection</a></li>
+        <li><a href="topics.html#intuition">Intuition</a></li>
+        <li><a href="topics.html#theory">Kalli's Theory</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>More</h4>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>&copy; 2026 Kalli D. McBride. All rights reserved.</span>
+    <span>mcbridemeta.com</span>
+  </div>
+</footer>
+
+</body>
+</html>
