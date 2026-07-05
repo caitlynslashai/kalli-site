@@ -708,6 +708,23 @@ p  { margin-bottom: 1rem; }
 .mt-3 { margin-top: 3rem; }
 .mb-2 { margin-bottom: 2rem; }
 
+/* ── Signature flower decoration ── */
+.page-hero { position: relative; overflow: hidden; }
+.hero::after, .page-hero::after {
+  content: '';
+  position: absolute;
+  right: 3rem;
+  bottom: 2rem;
+  width: 115px;
+  height: 140px;
+  background-image: url('flower.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
 /* ── Responsive ── */
 @media (max-width: 1000px) {
   .shop-grid { grid-template-columns: 1fr 1fr; }
